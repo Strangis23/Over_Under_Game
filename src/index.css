@@ -1,0 +1,57 @@
+:root {
+  color-scheme: dark light;
+  --bg: #0f1218;
+  --surface: #1a1f2a;
+  --surface-hover: #232a38;
+  --text: #e8edf5;
+  --muted: #8b9aaf;
+  --accent: #5b9fd4;
+  --accent-dim: #3d6f96;
+  --over: #4ade80;
+  --under: #f97316;
+  --bad: #f87171;
+  --card-border: rgba(255, 255, 255, 0.06);
+  --card-hover-border: rgba(91, 159, 212, 0.35);
+  --game-play-bg: transparent;
+  --game-play-border: rgba(255, 255, 255, 0.08);
+  --game-feedback-bg: rgba(255, 255, 255, 0.04);
+  --game-header-accent: rgba(91, 159, 212, 0.25);
+  --btn-primary-bg: linear-gradient(165deg, #5b9fd4 0%, #2d5a7a 100%);
+  --btn-primary-fg: #f8fafc;
+  --btn-primary-border: rgba(91, 159, 212, 0.45);
+  --btn-primary-shadow: rgba(0, 0, 0, 0.35);
+  --font: system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  transition: background 0.35s ease, color 0.25s ease;
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: 600;
+}

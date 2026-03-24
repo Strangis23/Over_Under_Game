@@ -1,0 +1,202 @@
+/*
+ * Category themes: set on <body> via CategoryThemeProvider.
+ * Home hub uses .card-theme-* on individual cards (see HomePage).
+ */
+
+body.theme-neutral {
+  --bg: #0f1218;
+  --surface: #1a1f2a;
+  --surface-hover: #232a38;
+  --text: #e8edf5;
+  --muted: #8b9aaf;
+  --accent: #5b9fd4;
+  --accent-dim: #3d6f96;
+  --over: #4ade80;
+  --under: #f97316;
+  --bad: #f87171;
+  --card-border: rgba(255, 255, 255, 0.06);
+  --card-hover-border: rgba(91, 159, 212, 0.35);
+  --game-play-bg: linear-gradient(
+    165deg,
+    rgba(40, 70, 100, 0.22) 0%,
+    rgba(18, 26, 38, 0.35) 100%
+  );
+  --game-play-border: rgba(91, 159, 212, 0.18);
+  --game-feedback-bg: rgba(91, 159, 212, 0.06);
+  --game-header-accent: rgba(91, 159, 212, 0.35);
+  --btn-primary-bg: linear-gradient(165deg, #6baee0 0%, #2d6a9d 100%);
+  --btn-primary-fg: #f8fafc;
+  --btn-primary-border: rgba(91, 159, 212, 0.55);
+  --btn-primary-shadow: rgba(0, 0, 0, 0.4);
+  background:
+    radial-gradient(
+      ellipse 110% 65% at 50% -5%,
+      rgba(91, 159, 212, 0.16),
+      transparent 58%
+    ),
+    linear-gradient(185deg, #151a22 0%, #0a0d12 55%, #0f1218 100%);
+  color: var(--text);
+}
+
+body.theme-animals {
+  --bg: #0f1812;
+  --surface: #1c2e23;
+  --surface-hover: #2a4030;
+  --text: #e8f2ea;
+  --muted: #8fa896;
+  --accent: #8bc34a;
+  --accent-dim: #558b2f;
+  --over: #aed581;
+  --under: #ffab91;
+  --bad: #ef9a9a;
+  --card-border: rgba(139, 195, 74, 0.2);
+  --card-hover-border: rgba(139, 195, 74, 0.45);
+  --game-play-bg: linear-gradient(
+    175deg,
+    rgba(45, 78, 55, 0.45) 0%,
+    rgba(18, 32, 24, 0.4) 55%,
+    rgba(25, 42, 32, 0.35) 100%
+  );
+  --game-play-border: rgba(139, 195, 74, 0.28);
+  --game-feedback-bg: rgba(139, 195, 74, 0.08);
+  --game-header-accent: rgba(139, 195, 74, 0.45);
+  --btn-primary-bg: linear-gradient(165deg, #aed581 0%, #4a7c23 100%);
+  --btn-primary-fg: #0f1608;
+  --btn-primary-border: rgba(139, 195, 74, 0.55);
+  --btn-primary-shadow: rgba(0, 0, 0, 0.45);
+  background:
+    radial-gradient(
+      ellipse 100% 60% at 50% -8%,
+      rgba(139, 195, 74, 0.2),
+      transparent 58%
+    ),
+    linear-gradient(175deg, #1a2b20 0%, #0f1a14 45%, #152018 100%);
+  color: var(--text);
+}
+
+body.theme-geography {
+  --bg: #0c1520;
+  --surface: #1a2a38;
+  --surface-hover: #243a4d;
+  --text: #e8f2fa;
+  --muted: #8ba9c4;
+  --accent: #42a5f5;
+  --accent-dim: #1565c0;
+  --over: #81d4fa;
+  --under: #ffb74d;
+  --bad: #ef9a9a;
+  --card-border: rgba(66, 165, 245, 0.2);
+  --card-hover-border: rgba(66, 165, 245, 0.45);
+  --game-play-bg: linear-gradient(
+    185deg,
+    rgba(35, 85, 130, 0.4) 0%,
+    rgba(18, 36, 52, 0.45) 50%,
+    rgba(15, 28, 42, 0.4) 100%
+  );
+  --game-play-border: rgba(66, 165, 245, 0.3);
+  --game-feedback-bg: rgba(66, 165, 245, 0.09);
+  --game-header-accent: rgba(66, 165, 245, 0.5);
+  --btn-primary-bg: linear-gradient(165deg, #64b5f6 0%, #0d47a1 100%);
+  --btn-primary-fg: #f0f8ff;
+  --btn-primary-border: rgba(100, 181, 246, 0.55);
+  --btn-primary-shadow: rgba(0, 20, 40, 0.5);
+  background:
+    radial-gradient(
+      ellipse 105% 62% at 42% -6%,
+      rgba(66, 165, 245, 0.22),
+      transparent 58%
+    ),
+    linear-gradient(180deg, #152d45 0%, #0a1218 50%, #0d1824 100%);
+  color: var(--text);
+}
+
+body.theme-sports {
+  --bg: #101218;
+  --surface: #1e2430;
+  --surface-hover: #2a3142;
+  --text: #f0f2f8;
+  --muted: #9aa3b5;
+  --accent: #ff9800;
+  --accent-dim: #e65100;
+  --over: #a5d6a7;
+  --under: #90caf9;
+  --bad: #ffab91;
+  --card-border: rgba(255, 152, 0, 0.22);
+  --card-hover-border: rgba(255, 152, 0, 0.5);
+  --game-play-bg: linear-gradient(
+    165deg,
+    rgba(55, 65, 95, 0.45) 0%,
+    rgba(28, 36, 52, 0.42) 45%,
+    rgba(22, 38, 28, 0.35) 100%
+  );
+  --game-play-border: rgba(255, 152, 0, 0.32);
+  --game-feedback-bg: rgba(255, 152, 0, 0.08);
+  --game-header-accent: rgba(255, 152, 0, 0.55);
+  --btn-primary-bg: linear-gradient(165deg, #ffb74d 0%, #bf360c 100%);
+  --btn-primary-fg: #fff8f0;
+  --btn-primary-border: rgba(255, 183, 77, 0.55);
+  --btn-primary-shadow: rgba(0, 0, 0, 0.45);
+  background:
+    radial-gradient(
+      ellipse 100% 58% at 50% -10%,
+      rgba(255, 152, 0, 0.18),
+      transparent 56%
+    ),
+    linear-gradient(160deg, #1a1f2e 0%, #12151c 40%, #0f1a14 100%);
+  color: var(--text);
+}
+
+/* Home: category cards (beat .card from App.css) */
+.card.card-link.card-theme-animals {
+  border-color: rgba(139, 195, 74, 0.25);
+  background: linear-gradient(
+    145deg,
+    rgba(28, 52, 38, 0.85),
+    rgba(16, 26, 20, 0.98)
+  );
+}
+
+.card.card-link.card-theme-animals:hover {
+  border-color: rgba(139, 195, 74, 0.45);
+  background: linear-gradient(
+    145deg,
+    rgba(36, 62, 46, 0.95),
+    rgba(20, 34, 26, 1)
+  );
+}
+
+.card.card-link.card-theme-geography {
+  border-color: rgba(66, 165, 245, 0.2);
+  background: linear-gradient(
+    145deg,
+    rgba(28, 48, 68, 0.9),
+    rgba(14, 24, 36, 0.98)
+  );
+}
+
+.card.card-link.card-theme-geography:hover {
+  border-color: rgba(66, 165, 245, 0.45);
+  background: linear-gradient(
+    145deg,
+    rgba(36, 62, 88, 0.95),
+    rgba(18, 32, 48, 1)
+  );
+}
+
+.card.card-link.card-theme-sports {
+  border-color: rgba(255, 152, 0, 0.22);
+  background: linear-gradient(
+    145deg,
+    rgba(42, 48, 64, 0.9),
+    rgba(18, 22, 32, 0.98)
+  );
+}
+
+.card.card-link.card-theme-sports:hover {
+  border-color: rgba(255, 152, 0, 0.48);
+  background: linear-gradient(
+    145deg,
+    rgba(52, 58, 78, 0.95),
+    rgba(24, 28, 40, 1)
+  );
+}

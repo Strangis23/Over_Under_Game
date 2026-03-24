@@ -1,0 +1,73 @@
+{
+  "categories": [
+    {
+      "id": "animals",
+      "label": "Animals",
+      "description": "Compare real-world animal stats.",
+      "subcategories": [
+        {
+          "id": "animals-weight",
+          "label": "Weight",
+          "description": "Which animal is heavier?",
+          "dimensionLabel": "Weight",
+          "unit": "kg",
+          "deckKey": "animalsWeight"
+        },
+        {
+          "id": "animals-height",
+          "label": "Height / length",
+          "description": "Which animal is taller or longer (typical adult)?",
+          "dimensionLabel": "Height / length",
+          "unit": "cm",
+          "deckKey": "animalsHeight"
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "label": "Geography",
+      "description": "Compare countries using public data (approximate).",
+      "subcategories": [
+        {
+          "id": "countries-population",
+          "label": "Country population",
+          "description": "Which country has more people?",
+          "dimensionLabel": "Population",
+          "unit": "people",
+          "deckKey": "countriesPopulation"
+        },
+        {
+          "id": "countries-area",
+          "label": "Country land area",
+          "description": "Which country has a larger land area?",
+          "dimensionLabel": "Land area",
+          "unit": "km²",
+          "deckKey": "countriesArea"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "description": "Pro football and basketball career numbers (approximate).",
+      "subcategories": [
+        {
+          "id": "nba-ppg",
+          "label": "NBA — career PPG",
+          "description": "Who averaged more points per game for their career?",
+          "dimensionLabel": "Career points per game",
+          "unit": "PPG",
+          "deckKey": "nbaPpg"
+        },
+        {
+          "id": "nfl-pass-yds",
+          "label": "NFL — career passing yards",
+          "description": "Who threw for more career passing yards (regular season)?",
+          "dimensionLabel": "Career passing yards",
+          "unit": "yds",
+          "deckKey": "nflPassYds"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "nba-1",
+    "name": "Michael Jordan",
+    "value": 30.12,
+    "image": "https://picsum.photos/seed/nba-0/320/240"
+  },
+  {
+    "id": "nba-2",
+    "name": "Wilt Chamberlain",
+    "value": 30.07,
+    "image": "https://picsum.photos/seed/nba-1/320/240"
+  },
+  {
+    "id": "nba-3",
+    "name": "Elgin Baylor",
+    "value": 27.36,
+    "image": "https://picsum.photos/seed/nba-2/320/240"
+  },
+  {
+    "id": "nba-4",
+    "name": "Kevin Durant",
+    "value": 27.28,
+    "image": "https://picsum.photos/seed/nba-3/320/240"
+  },
+  {
+    "id": "nba-5",
+    "name": "Jerry West",
+    "value": 27.03,
+    "image": "https://picsum.photos/seed/nba-4/320/240"
+  },
+  {
+    "id": "nba-6",
+    "name": "LeBron James",
+    "value": 27.02,
+    "image": "https://picsum.photos/seed/nba-5/320/240"
+  },
+  {
+    "id": "nba-7",
+    "name": "Allen Iverson",
+    "value": 26.66,
+    "image": "https://picsum.photos/seed/nba-6/320/240"
+  },
+  {
+    "id": "nba-8",
+    "name": "Joel Embiid",
+    "value": 27.01,
+    "image": "https://picsum.photos/seed/nba-7/320/240"
+  },
+  {
+    "id": "nba-9",
+    "name": "Bob Pettit",
+    "value": 26.36,
+    "image": "https://picsum.photos/seed/nba-8/320/240"
+  },
+  {
+    "id": "nba-10",
+    "name": "George Gervin",
+    "value": 26.18,
+    "image": "https://picsum.photos/seed/nba-9/320/240"
+  },
+  {
+    "id": "nba-11",
+    "name": "Oscar Robertson",
+    "value": 25.68,
+    "image": "https://picsum.photos/seed/nba-10/320/240"
+  },
+  {
+    "id": "nba-12",
+    "name": "Kobe Bryant",
+    "value": 25.02,
+    "image": "https://picsum.photos/seed/nba-11/320/240"
+  },
+  {
+    "id": "nba-13",
+    "name": "Karl Malone",
+    "value": 25.01,
+    "image": "https://picsum.photos/seed/nba-12/320/240"
+  },
+  {
+    "id": "nba-14",
+    "name": "Rick Barry",
+    "value": 24.78,
+    "image": "https://picsum.photos/seed/nba-13/320/240"
+  },
+  {
+    "id": "nba-15",
+    "name": "Stephen Curry",
+    "value": 24.82,
+    "image": "https://picsum.photos/seed/nba-14/320/240"
+  },
+  {
+    "id": "nba-16",
+    "name": "Larry Bird",
+    "value": 24.29,
+    "image": "https://picsum.photos/seed/nba-15/320/240"
+  },
+  {
+    "id": "nba-17",
+    "name": "Carmelo Anthony",
+    "value": 22.52,
+    "image": "https://picsum.photos/seed/nba-16/320/240"
+  },
+  {
+    "id": "nba-18",
+    "name": "Adrian Dantley",
+    "value": 24.27,
+    "image": "https://picsum.photos/seed/nba-17/320/240"
+  },
+  {
+    "id": "nba-19",
+    "name": "James Harden",
+    "value": 24.01,
+    "image": "https://picsum.photos/seed/nba-18/320/240"
+  },
+  {
+    "id": "nba-20",
+    "name": "Anthony Davis",
+    "value": 24.02,
+    "image": "https://picsum.photos/seed/nba-19/320/240"
+  },
+  {
+    "id": "nba-21",
+    "name": "Shaquille O'Neal",
+    "value": 23.69,
+    "image": "https://picsum.photos/seed/nba-20/320/240"
+  },
+  {
+    "id": "nba-22",
+    "name": "Giannis Antetokounmpo",
+    "value": 22.02,
+    "image": "https://picsum.photos/seed/nba-21/320/240"
+  },
+  {
+    "id": "nba-23",
+    "name": "Dwyane Wade",
+    "value": 22.01,
+    "image": "https://picsum.photos/seed/nba-22/320/240"
+  },
+  {
+    "id": "nba-24",
+    "name": "Damian Lillard",
+    "value": 25.15,
+    "image": "https://picsum.photos/seed/nba-23/320/240"
+  },
+  {
+    "id": "nba-25",
+    "name": "Devin Booker",
+    "value": 24.51,
+    "image": "https://picsum.photos/seed/nba-24/320/240"
+  },
+  {
+    "id": "nba-26",
+    "name": "Luka Dončić",
+    "value": 28.51,
+    "image": "https://picsum.photos/seed/nba-25/320/240"
+  },
+  {
+    "id": "nba-27",
+    "name": "Trae Young",
+    "value": 25.52,
+    "image": "https://picsum.photos/seed/nba-26/320/240"
+  },
+  {
+    "id": "nba-28",
+    "name": "Paul George",
+    "value": 20.31,
+    "image": "https://picsum.photos/seed/nba-27/320/240"
+  },
+  {
+    "id": "nba-29",
+    "name": "Russell Westbrook",
+    "value": 21.75,
+    "image": "https://picsum.photos/seed/nba-28/320/240"
+  },
+  {
+    "id": "nba-30",
+    "name": "Kyrie Irving",
+    "value": 23.41,
+    "image": "https://picsum.photos/seed/nba-29/320/240"
+  },
+  {
+    "id": "nba-31",
+    "name": "Kawhi Leonard",
+    "value": 19.02,
+    "image": "https://picsum.photos/seed/nba-30/320/240"
+  },
+  {
+    "id": "nba-32",
+    "name": "Tim Duncan",
+    "value": 19.01,
+    "image": "https://picsum.photos/seed/nba-31/320/240"
+  },
+  {
+    "id": "nba-33",
+    "name": "Dirk Nowitzki",
+    "value": 20.72,
+    "image": "https://picsum.photos/seed/nba-32/320/240"
+  },
+  {
+    "id": "nba-34",
+    "name": "Patrick Ewing",
+    "value": 21.03,
+    "image": "https://picsum.photos/seed/nba-33/320/240"
+  },
+  {
+    "id": "nba-35",
+    "name": "Hakeem Olajuwon",
+    "value": 21.77,
+    "image": "https://picsum.photos/seed/nba-34/320/240"
+  },
+  {
+    "id": "nba-36",
+    "name": "David Robinson",
+    "value": 21.06,
+    "image": "https://picsum.photos/seed/nba-35/320/240"
+  },
+  {
+    "id": "nba-37",
+    "name": "Charles Barkley",
+    "value": 22.14,
+    "image": "https://picsum.photos/seed/nba-36/320/240"
+  },
+  {
+    "id": "nba-38",
+    "name": "Julius Erving",
+    "value": 22.02001,
+    "image": "https://picsum.photos/seed/nba-37/320/240"
+  },
+  {
+    "id": "nba-39",
+    "name": "John Havlicek",
+    "value": 20.78,
+    "image": "https://picsum.photos/seed/nba-38/320/240"
+  },
+  {
+    "id": "nba-40",
+    "name": "Paul Pierce",
+    "value": 19.72,
+    "image": "https://picsum.photos/seed/nba-39/320/240"
+  },
+  {
+    "id": "nba-41",
+    "name": "Ray Allen",
+    "value": 18.91,
+    "image": "https://picsum.photos/seed/nba-40/320/240"
+  },
+  {
+    "id": "nba-42",
+    "name": "Reggie Miller",
+    "value": 18.22,
+    "image": "https://picsum.photos/seed/nba-41/320/240"
+  },
+  {
+    "id": "nba-43",
+    "name": "Vince Carter",
+    "value": 16.72,
+    "image": "https://picsum.photos/seed/nba-42/320/240"
+  },
+  {
+    "id": "nba-44",
+    "name": "Tracy McGrady",
+    "value": 19.61,
+    "image": "https://picsum.photos/seed/nba-43/320/240"
+  },
+  {
+    "id": "nba-45",
+    "name": "Grant Hill",
+    "value": 16.72001,
+    "image": "https://picsum.photos/seed/nba-44/320/240"
+  },
+  {
+    "id": "nba-46",
+    "name": "Chris Webber",
+    "value": 20.71,
+    "image": "https://picsum.photos/seed/nba-45/320/240"
+  },
+  {
+    "id": "nba-47",
+    "name": "Kevin Garnett",
+    "value": 17.81,
+    "image": "https://picsum.photos/seed/nba-46/320/240"
+  },
+  {
+    "id": "nba-48",
+    "name": "Pau Gasol",
+    "value": 17.02,
+    "image": "https://picsum.photos/seed/nba-47/320/240"
+  },
+  {
+    "id": "nba-49",
+    "name": "Tony Parker",
+    "value": 15.52,
+    "image": "https://picsum.photos/seed/nba-48/320/240"
+  },
+  {
+    "id": "nba-50",
+    "name": "Manu Ginóbili",
+    "value": 13.32,
+    "image": "https://picsum.photos/seed/nba-49/320/240"
+  },
+  {
+    "id": "nba-51",
+    "name": "Steve Nash",
+    "value": 14.32,
+    "image": "https://picsum.photos/seed/nba-50/320/240"
+  },
+  {
+    "id": "nba-52",
+    "name": "Jason Kidd",
+    "value": 12.61,
+    "image": "https://picsum.photos/seed/nba-51/320/240"
+  },
+  {
+    "id": "nba-53",
+    "name": "Gary Payton",
+    "value": 16.32,
+    "image": "https://picsum.photos/seed/nba-52/320/240"
+  },
+  {
+    "id": "nba-54",
+    "name": "Chris Paul",
+    "value": 17.52,
+    "image": "https://picsum.photos/seed/nba-53/320/240"
+  },
+  {
+    "id": "nba-55",
+    "name": "Deron Williams",
+    "value": 16.32001,
+    "image": "https://picsum.photos/seed/nba-54/320/240"
+  },
+  {
+    "id": "nba-56",
+    "name": "John Stockton",
+    "value": 13.12,
+    "image": "https://picsum.photos/seed/nba-55/320/240"
+  },
+  {
+    "id": "nba-57",
+    "name": "Isiah Thomas",
+    "value": 19.22,
+    "image": "https://picsum.photos/seed/nba-56/320/240"
+  },
+  {
+    "id": "nba-58",
+    "name": "Magic Johnson",
+    "value": 19.52,
+    "image": "https://picsum.photos/seed/nba-57/320/240"
+  },
+  {
+    "id": "nba-59",
+    "name": "Bob Cousy",
+    "value": 18.42,
+    "image": "https://picsum.photos/seed/nba-58/320/240"
+  },
+  {
+    "id": "nba-60",
+    "name": "Bill Russell",
+    "value": 15.12,
+    "image": "https://picsum.photos/seed/nba-59/320/240"
+  },
+  {
+    "id": "nba-61",
+    "name": "Wes Unseld",
+    "value": 10.82,
+    "image": "https://picsum.photos/seed/nba-60/320/240"
+  },
+  {
+    "id": "nba-62",
+    "name": "Moses Malone",
+    "value": 20.32,
+    "image": "https://picsum.photos/seed/nba-61/320/240"
+  },
+  {
+    "id": "nba-63",
+    "name": "Artis Gilmore",
+    "value": 18.52,
+    "image": "https://picsum.photos/seed/nba-62/320/240"
+  },
+  {
+    "id": "nba-64",
+    "name": "Bob McAdoo",
+    "value": 22.12,
+    "image": "https://picsum.photos/seed/nba-63/320/240"
+  },
+  {
+    "id": "nba-65",
+    "name": "George Mikan",
+    "value": 23.12,
+    "image": "https://picsum.photos/seed/nba-64/320/240"
+  },
+  {
+    "id": "nba-66",
+    "name": "Dolph Schayes",
+    "value": 18.52001,
+    "image": "https://picsum.photos/seed/nba-65/320/240"
+  },
+  {
+    "id": "nba-67",
+    "name": "Dominique Wilkins",
+    "value": 24.82001,
+    "image": "https://picsum.photos/seed/nba-66/320/240"
+  },
+  {
+    "id": "nba-68",
+    "name": "Alex English",
+    "value": 21.52,
+    "image": "https://picsum.photos/seed/nba-67/320/240"
+  },
+  {
+    "id": "nba-69",
+    "name": "Bernard King",
+    "value": 22.52001,
+    "image": "https://picsum.photos/seed/nba-68/320/240"
+  },
+  {
+    "id": "nba-70",
+    "name": "Chris Mullin",
+    "value": 18.22001,
+    "image": "https://picsum.photos/seed/nba-69/320/240"
+  },
+  {
+    "id": "nba-71",
+    "name": "Mitch Richmond",
+    "value": 21.02,
+    "image": "https://picsum.photos/seed/nba-70/320/240"
+  },
+  {
+    "id": "nba-72",
+    "name": "Glen Rice",
+    "value": 18.32,
+    "image": "https://picsum.photos/seed/nba-71/320/240"
+  },
+  {
+    "id": "nba-73",
+    "name": "Peja Stojaković",
+    "value": 17.02001,
+    "image": "https://picsum.photos/seed/nba-72/320/240"
+  },
+  {
+    "id": "nba-74",
+    "name": "Vlade Divac",
+    "value": 11.82,
+    "image": "https://picsum.photos/seed/nba-73/320/240"
+  },
+  {
+    "id": "nba-75",
+    "name": "Yao Ming",
+    "value": 19.02001,
+    "image": "https://picsum.photos/seed/nba-74/320/240"
+  },
+  {
+    "id": "nba-76",
+    "name": "Amar'e Stoudemire",
+    "value": 18.92,
+    "image": "https://picsum.photos/seed/nba-75/320/240"
+  },
+  {
+    "id": "nba-77",
+    "name": "Blake Griffin",
+    "value": 19.12,
+    "image": "https://picsum.photos/seed/nba-76/320/240"
+  },
+  {
+    "id": "nba-78",
+    "name": "DeMar DeRozan",
+    "value": 21.12,
+    "image": "https://picsum.photos/seed/nba-77/320/240"
+  },
+  {
+    "id": "nba-79",
+    "name": "Jimmy Butler",
+    "value": 18.22002,
+    "image": "https://picsum.photos/seed/nba-78/320/240"
+  },
+  {
+    "id": "nba-80",
+    "name": "Klay Thompson",
+    "value": 19.52001,
+    "image": "https://picsum.photos/seed/nba-79/320/240"
+  },
+  {
+    "id": "nba-81",
+    "name": "Draymond Green",
+    "value": 8.72,
+    "image": "https://picsum.photos/seed/nba-80/320/240"
+  },
+  {
+    "id": "nba-82",
+    "name": "Nikola Jokić",
+    "value": 20.02,
+    "image": "https://picsum.photos/seed/nba-81/320/240"
+  },
+  {
+    "id": "nba-83",
+    "name": "Jayson Tatum",
+    "value": 23.41001,
+    "image": "https://picsum.photos/seed/nba-82/320/240"
+  },
+  {
+    "id": "nba-84",
+    "name": "Jaylen Brown",
+    "value": 20.22,
+    "image": "https://picsum.photos/seed/nba-83/320/240"
+  },
+  {
+    "id": "nba-85",
+    "name": "Donovan Mitchell",
+    "value": 24.12,
+    "image": "https://picsum.photos/seed/nba-84/320/240"
+  },
+  {
+    "id": "nba-86",
+    "name": "Shai Gilgeous-Alexander",
+    "value": 24.32,
+    "image": "https://picsum.photos/seed/nba-85/320/240"
+  },
+  {
+    "id": "nba-87",
+    "name": "Anthony Edwards",
+    "value": 23.02,
+    "image": "https://picsum.photos/seed/nba-86/320/240"
+  },
+  {
+    "id": "nba-88",
+    "name": "Ja Morant",
+    "value": 21.12001,
+    "image": "https://picsum.photos/seed/nba-87/320/240"
+  },
+  {
+    "id": "nba-89",
+    "name": "Zion Williamson",
+    "value": 24.02001,
+    "image": "https://picsum.photos/seed/nba-88/320/240"
+  },
+  {
+    "id": "nba-90",
+    "name": "Tyrese Haliburton",
+    "value": 20.12,
+    "image": "https://picsum.photos/seed/nba-89/320/240"
+  },
+  {
+    "id": "nba-91",
+    "name": "De'Aaron Fox",
+    "value": 20.42,
+    "image": "https://picsum.photos/seed/nba-90/320/240"
+  },
+  {
+    "id": "nba-92",
+    "name": "Bradley Beal",
+    "value": 22.02002,
+    "image": "https://picsum.photos/seed/nba-91/320/240"
+  },
+  {
+    "id": "nba-93",
+    "name": "Karl-Anthony Towns",
+    "value": 22.62,
+    "image": "https://picsum.photos/seed/nba-92/320/240"
+  },
+  {
+    "id": "nba-94",
+    "name": "Rudy Gobert",
+    "value": 12.42,
+    "image": "https://picsum.photos/seed/nba-93/320/240"
+  },
+  {
+    "id": "nba-95",
+    "name": "Bam Adebayo",
+    "value": 19.12001,
+    "image": "https://picsum.photos/seed/nba-94/320/240"
+  },
+  {
+    "id": "nba-96",
+    "name": "Jrue Holiday",
+    "value": 16.42,
+    "image": "https://picsum.photos/seed/nba-95/320/240"
+  },
+  {
+    "id": "nba-97",
+    "name": "LaMelo Ball",
+    "value": 20.03,
+    "image": "https://picsum.photos/seed/nba-96/320/240"
+  },
+  {
+    "id": "nba-98",
+    "name": "Scottie Barnes",
+    "value": 15.32,
+    "image": "https://picsum.photos/seed/nba-97/320/240"
+  },
+  {
+    "id": "nba-99",
+    "name": "CJ McCollum",
+    "value": 19.52002,
+    "image": "https://picsum.photos/seed/nba-98/320/240"
+  },
+  {
+    "id": "nba-100",
+    "name": "Dejounte Murray",
+    "value": 15.12001,
+    "image": "https://picsum.photos/seed/nba-99/320/240"
+  }
+]

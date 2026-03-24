@@ -1,0 +1,627 @@
+[
+  {
+    "id": "aw-1",
+    "name": "Blue whale",
+    "value": 140000,
+    "meta": "approx adult",
+    "image": "https://picsum.photos/seed/aw-0/320/240"
+  },
+  {
+    "id": "aw-2",
+    "name": "Fin whale",
+    "value": 57000,
+    "image": "https://picsum.photos/seed/aw-1/320/240"
+  },
+  {
+    "id": "aw-3",
+    "name": "Southern right whale",
+    "value": 80000,
+    "image": "https://picsum.photos/seed/aw-2/320/240"
+  },
+  {
+    "id": "aw-4",
+    "name": "Humpback whale",
+    "value": 30000,
+    "image": "https://picsum.photos/seed/aw-3/320/240"
+  },
+  {
+    "id": "aw-5",
+    "name": "Sperm whale",
+    "value": 35000,
+    "image": "https://picsum.photos/seed/aw-4/320/240"
+  },
+  {
+    "id": "aw-6",
+    "name": "Bowhead whale",
+    "value": 75000,
+    "image": "https://picsum.photos/seed/aw-5/320/240"
+  },
+  {
+    "id": "aw-7",
+    "name": "Sei whale",
+    "value": 28000,
+    "image": "https://picsum.photos/seed/aw-6/320/240"
+  },
+  {
+    "id": "aw-8",
+    "name": "Bryde's whale",
+    "value": 23000,
+    "image": "https://picsum.photos/seed/aw-7/320/240"
+  },
+  {
+    "id": "aw-9",
+    "name": "Gray whale",
+    "value": 15000,
+    "image": "https://picsum.photos/seed/aw-8/320/240"
+  },
+  {
+    "id": "aw-10",
+    "name": "Minke whale",
+    "value": 6000,
+    "image": "https://picsum.photos/seed/aw-9/320/240"
+  },
+  {
+    "id": "aw-11",
+    "name": "Orca",
+    "value": 5500,
+    "image": "https://picsum.photos/seed/aw-10/320/240"
+  },
+  {
+    "id": "aw-12",
+    "name": "Whale shark",
+    "value": 10000,
+    "image": "https://picsum.photos/seed/aw-11/320/240"
+  },
+  {
+    "id": "aw-13",
+    "name": "White rhinoceros",
+    "value": 2000,
+    "image": "https://picsum.photos/seed/aw-12/320/240"
+  },
+  {
+    "id": "aw-14",
+    "name": "Black rhinoceros",
+    "value": 1100,
+    "image": "https://picsum.photos/seed/aw-13/320/240"
+  },
+  {
+    "id": "aw-15",
+    "name": "Indian rhinoceros",
+    "value": 2100,
+    "image": "https://picsum.photos/seed/aw-14/320/240"
+  },
+  {
+    "id": "aw-16",
+    "name": "African bush elephant",
+    "value": 6000.00001,
+    "image": "https://picsum.photos/seed/aw-15/320/240"
+  },
+  {
+    "id": "aw-17",
+    "name": "Asian elephant",
+    "value": 4000,
+    "image": "https://picsum.photos/seed/aw-16/320/240"
+  },
+  {
+    "id": "aw-18",
+    "name": "Hippopotamus",
+    "value": 1500,
+    "image": "https://picsum.photos/seed/aw-17/320/240"
+  },
+  {
+    "id": "aw-19",
+    "name": "Giraffe",
+    "value": 1200,
+    "image": "https://picsum.photos/seed/aw-18/320/240"
+  },
+  {
+    "id": "aw-20",
+    "name": "American bison",
+    "value": 900,
+    "image": "https://picsum.photos/seed/aw-19/320/240"
+  },
+  {
+    "id": "aw-21",
+    "name": "Water buffalo",
+    "value": 1000,
+    "image": "https://picsum.photos/seed/aw-20/320/240"
+  },
+  {
+    "id": "aw-22",
+    "name": "Gaur",
+    "value": 1000.00001,
+    "image": "https://picsum.photos/seed/aw-21/320/240"
+  },
+  {
+    "id": "aw-23",
+    "name": "Wild yak",
+    "value": 500,
+    "image": "https://picsum.photos/seed/aw-22/320/240"
+  },
+  {
+    "id": "aw-24",
+    "name": "Moose",
+    "value": 450,
+    "image": "https://picsum.photos/seed/aw-23/320/240"
+  },
+  {
+    "id": "aw-25",
+    "name": "Saltwater crocodile",
+    "value": 500.00001,
+    "image": "https://picsum.photos/seed/aw-24/320/240"
+  },
+  {
+    "id": "aw-26",
+    "name": "Nile crocodile",
+    "value": 410,
+    "image": "https://picsum.photos/seed/aw-25/320/240"
+  },
+  {
+    "id": "aw-27",
+    "name": "American alligator",
+    "value": 230,
+    "image": "https://picsum.photos/seed/aw-26/320/240"
+  },
+  {
+    "id": "aw-28",
+    "name": "Polar bear",
+    "value": 450.00001,
+    "image": "https://picsum.photos/seed/aw-27/320/240"
+  },
+  {
+    "id": "aw-29",
+    "name": "Kodiak bear",
+    "value": 450.00002,
+    "image": "https://picsum.photos/seed/aw-28/320/240"
+  },
+  {
+    "id": "aw-30",
+    "name": "Brown bear",
+    "value": 350,
+    "image": "https://picsum.photos/seed/aw-29/320/240"
+  },
+  {
+    "id": "aw-31",
+    "name": "American black bear",
+    "value": 150,
+    "image": "https://picsum.photos/seed/aw-30/320/240"
+  },
+  {
+    "id": "aw-32",
+    "name": "Lion",
+    "value": 190,
+    "image": "https://picsum.photos/seed/aw-31/320/240"
+  },
+  {
+    "id": "aw-33",
+    "name": "Tiger",
+    "value": 220,
+    "image": "https://picsum.photos/seed/aw-32/320/240"
+  },
+  {
+    "id": "aw-34",
+    "name": "Jaguar",
+    "value": 85,
+    "image": "https://picsum.photos/seed/aw-33/320/240"
+  },
+  {
+    "id": "aw-35",
+    "name": "Leopard",
+    "value": 65,
+    "image": "https://picsum.photos/seed/aw-34/320/240"
+  },
+  {
+    "id": "aw-36",
+    "name": "Cheetah",
+    "value": 50,
+    "image": "https://picsum.photos/seed/aw-35/320/240"
+  },
+  {
+    "id": "aw-37",
+    "name": "Gray wolf",
+    "value": 40,
+    "image": "https://picsum.photos/seed/aw-36/320/240"
+  },
+  {
+    "id": "aw-38",
+    "name": "Spotted hyena",
+    "value": 65.00001,
+    "image": "https://picsum.photos/seed/aw-37/320/240"
+  },
+  {
+    "id": "aw-39",
+    "name": "Gorilla",
+    "value": 160,
+    "image": "https://picsum.photos/seed/aw-38/320/240"
+  },
+  {
+    "id": "aw-40",
+    "name": "Orangutan",
+    "value": 75,
+    "image": "https://picsum.photos/seed/aw-39/320/240"
+  },
+  {
+    "id": "aw-41",
+    "name": "Chimpanzee",
+    "value": 50.00001,
+    "image": "https://picsum.photos/seed/aw-40/320/240"
+  },
+  {
+    "id": "aw-42",
+    "name": "Walrus",
+    "value": 1000.00002,
+    "image": "https://picsum.photos/seed/aw-41/320/240"
+  },
+  {
+    "id": "aw-43",
+    "name": "Northern elephant seal",
+    "value": 2000.00001,
+    "image": "https://picsum.photos/seed/aw-42/320/240"
+  },
+  {
+    "id": "aw-44",
+    "name": "Southern elephant seal",
+    "value": 2200,
+    "image": "https://picsum.photos/seed/aw-43/320/240"
+  },
+  {
+    "id": "aw-45",
+    "name": "Steller sea lion",
+    "value": 450.00003,
+    "image": "https://picsum.photos/seed/aw-44/320/240"
+  },
+  {
+    "id": "aw-46",
+    "name": "Manatee",
+    "value": 450.00004,
+    "image": "https://picsum.photos/seed/aw-45/320/240"
+  },
+  {
+    "id": "aw-47",
+    "name": "Dugong",
+    "value": 400,
+    "image": "https://picsum.photos/seed/aw-46/320/240"
+  },
+  {
+    "id": "aw-48",
+    "name": "Great white shark",
+    "value": 1100.00001,
+    "image": "https://picsum.photos/seed/aw-47/320/240"
+  },
+  {
+    "id": "aw-49",
+    "name": "Tiger shark",
+    "value": 550,
+    "image": "https://picsum.photos/seed/aw-48/320/240"
+  },
+  {
+    "id": "aw-50",
+    "name": "Bull shark",
+    "value": 230.00001,
+    "image": "https://picsum.photos/seed/aw-49/320/240"
+  },
+  {
+    "id": "aw-51",
+    "name": "Hammerhead shark",
+    "value": 230.00002,
+    "image": "https://picsum.photos/seed/aw-50/320/240"
+  },
+  {
+    "id": "aw-52",
+    "name": "Manta ray",
+    "value": 1350,
+    "image": "https://picsum.photos/seed/aw-51/320/240"
+  },
+  {
+    "id": "aw-53",
+    "name": "Beluga whale",
+    "value": 1400,
+    "image": "https://picsum.photos/seed/aw-52/320/240"
+  },
+  {
+    "id": "aw-54",
+    "name": "Narwhal",
+    "value": 1600,
+    "image": "https://picsum.photos/seed/aw-53/320/240"
+  },
+  {
+    "id": "aw-55",
+    "name": "Dromedary camel",
+    "value": 500.00002,
+    "image": "https://picsum.photos/seed/aw-54/320/240"
+  },
+  {
+    "id": "aw-56",
+    "name": "Bactrian camel",
+    "value": 650,
+    "image": "https://picsum.photos/seed/aw-55/320/240"
+  },
+  {
+    "id": "aw-57",
+    "name": "Domestic cattle (bull)",
+    "value": 650.00001,
+    "image": "https://picsum.photos/seed/aw-56/320/240"
+  },
+  {
+    "id": "aw-58",
+    "name": "Domestic horse (draft)",
+    "value": 900.00001,
+    "image": "https://picsum.photos/seed/aw-57/320/240"
+  },
+  {
+    "id": "aw-59",
+    "name": "Domestic pig",
+    "value": 120,
+    "image": "https://picsum.photos/seed/aw-58/320/240"
+  },
+  {
+    "id": "aw-60",
+    "name": "Domestic sheep",
+    "value": 70,
+    "image": "https://picsum.photos/seed/aw-59/320/240"
+  },
+  {
+    "id": "aw-61",
+    "name": "Domestic goat",
+    "value": 45,
+    "image": "https://picsum.photos/seed/aw-60/320/240"
+  },
+  {
+    "id": "aw-62",
+    "name": "Red deer",
+    "value": 200,
+    "image": "https://picsum.photos/seed/aw-61/320/240"
+  },
+  {
+    "id": "aw-63",
+    "name": "Elk (wapiti)",
+    "value": 320,
+    "image": "https://picsum.photos/seed/aw-62/320/240"
+  },
+  {
+    "id": "aw-64",
+    "name": "Musk ox",
+    "value": 350.00001,
+    "image": "https://picsum.photos/seed/aw-63/320/240"
+  },
+  {
+    "id": "aw-65",
+    "name": "Bighorn sheep",
+    "value": 120.00001,
+    "image": "https://picsum.photos/seed/aw-64/320/240"
+  },
+  {
+    "id": "aw-66",
+    "name": "Mountain gorilla",
+    "value": 160.00001,
+    "image": "https://picsum.photos/seed/aw-65/320/240"
+  },
+  {
+    "id": "aw-67",
+    "name": "Mandrill",
+    "value": 25,
+    "image": "https://picsum.photos/seed/aw-66/320/240"
+  },
+  {
+    "id": "aw-68",
+    "name": "Baboon",
+    "value": 30,
+    "image": "https://picsum.photos/seed/aw-67/320/240"
+  },
+  {
+    "id": "aw-69",
+    "name": "Ostrich",
+    "value": 130,
+    "image": "https://picsum.photos/seed/aw-68/320/240"
+  },
+  {
+    "id": "aw-70",
+    "name": "Emu",
+    "value": 35,
+    "image": "https://picsum.photos/seed/aw-69/320/240"
+  },
+  {
+    "id": "aw-71",
+    "name": "Southern cassowary",
+    "value": 60,
+    "image": "https://picsum.photos/seed/aw-70/320/240"
+  },
+  {
+    "id": "aw-72",
+    "name": "Green anaconda",
+    "value": 100,
+    "image": "https://picsum.photos/seed/aw-71/320/240"
+  },
+  {
+    "id": "aw-73",
+    "name": "Reticulated python",
+    "value": 75.00001,
+    "image": "https://picsum.photos/seed/aw-72/320/240"
+  },
+  {
+    "id": "aw-74",
+    "name": "Komodo dragon",
+    "value": 70.00001,
+    "image": "https://picsum.photos/seed/aw-73/320/240"
+  },
+  {
+    "id": "aw-75",
+    "name": "Aldabra giant tortoise",
+    "value": 250,
+    "image": "https://picsum.photos/seed/aw-74/320/240"
+  },
+  {
+    "id": "aw-76",
+    "name": "Galápagos tortoise",
+    "value": 300,
+    "image": "https://picsum.photos/seed/aw-75/320/240"
+  },
+  {
+    "id": "aw-77",
+    "name": "American crocodile",
+    "value": 200.00001,
+    "image": "https://picsum.photos/seed/aw-76/320/240"
+  },
+  {
+    "id": "aw-78",
+    "name": "Gharial",
+    "value": 250.00001,
+    "image": "https://picsum.photos/seed/aw-77/320/240"
+  },
+  {
+    "id": "aw-79",
+    "name": "Giant Pacific octopus",
+    "value": 50.00002,
+    "image": "https://picsum.photos/seed/aw-78/320/240"
+  },
+  {
+    "id": "aw-80",
+    "name": "Colossal squid",
+    "value": 500.00003,
+    "image": "https://picsum.photos/seed/aw-79/320/240"
+  },
+  {
+    "id": "aw-81",
+    "name": "Atlantic bluefin tuna",
+    "value": 300.00001,
+    "image": "https://picsum.photos/seed/aw-80/320/240"
+  },
+  {
+    "id": "aw-82",
+    "name": "Ocean sunfish",
+    "value": 1000.00003,
+    "image": "https://picsum.photos/seed/aw-81/320/240"
+  },
+  {
+    "id": "aw-83",
+    "name": "Great barracuda",
+    "value": 9,
+    "image": "https://picsum.photos/seed/aw-82/320/240"
+  },
+  {
+    "id": "aw-84",
+    "name": "Marlin (blue)",
+    "value": 100.00001,
+    "image": "https://picsum.photos/seed/aw-83/320/240"
+  },
+  {
+    "id": "aw-85",
+    "name": "Swordfish",
+    "value": 200.00002,
+    "image": "https://picsum.photos/seed/aw-84/320/240"
+  },
+  {
+    "id": "aw-86",
+    "name": "Sturgeon (beluga)",
+    "value": 250.00002,
+    "image": "https://picsum.photos/seed/aw-85/320/240"
+  },
+  {
+    "id": "aw-87",
+    "name": "Arapaima",
+    "value": 100.00002,
+    "image": "https://picsum.photos/seed/aw-86/320/240"
+  },
+  {
+    "id": "aw-88",
+    "name": "Mekong giant catfish",
+    "value": 200.00003,
+    "image": "https://picsum.photos/seed/aw-87/320/240"
+  },
+  {
+    "id": "aw-89",
+    "name": "Wels catfish",
+    "value": 100.00003,
+    "image": "https://picsum.photos/seed/aw-88/320/240"
+  },
+  {
+    "id": "aw-90",
+    "name": "American bison (wood bison)",
+    "value": 1000.00004,
+    "image": "https://picsum.photos/seed/aw-89/320/240"
+  },
+  {
+    "id": "aw-91",
+    "name": "European bison",
+    "value": 900.00002,
+    "image": "https://picsum.photos/seed/aw-90/320/240"
+  },
+  {
+    "id": "aw-92",
+    "name": "Zebra (common)",
+    "value": 300.00002,
+    "image": "https://picsum.photos/seed/aw-91/320/240"
+  },
+  {
+    "id": "aw-93",
+    "name": "White-tailed deer",
+    "value": 100.00004,
+    "image": "https://picsum.photos/seed/aw-92/320/240"
+  },
+  {
+    "id": "aw-94",
+    "name": "Reindeer",
+    "value": 180,
+    "image": "https://picsum.photos/seed/aw-93/320/240"
+  },
+  {
+    "id": "aw-95",
+    "name": "Moose (Alaska)",
+    "value": 550.00001,
+    "image": "https://picsum.photos/seed/aw-94/320/240"
+  },
+  {
+    "id": "aw-96",
+    "name": "Saiga antelope",
+    "value": 40.00001,
+    "image": "https://picsum.photos/seed/aw-95/320/240"
+  },
+  {
+    "id": "aw-97",
+    "name": "Nilgai",
+    "value": 215,
+    "image": "https://picsum.photos/seed/aw-96/320/240"
+  },
+  {
+    "id": "aw-98",
+    "name": "Eland (common)",
+    "value": 600,
+    "image": "https://picsum.photos/seed/aw-97/320/240"
+  },
+  {
+    "id": "aw-99",
+    "name": "Greater kudu",
+    "value": 190.00001,
+    "image": "https://picsum.photos/seed/aw-98/320/240"
+  },
+  {
+    "id": "aw-100",
+    "name": "Waterbuck",
+    "value": 230.00003,
+    "image": "https://picsum.photos/seed/aw-99/320/240"
+  },
+  {
+    "id": "aw-101",
+    "name": "Hippopotamus (pygmy)",
+    "value": 250.00003,
+    "image": "https://picsum.photos/seed/aw-100/320/240"
+  },
+  {
+    "id": "aw-102",
+    "name": "Tapir (Brazilian)",
+    "value": 250.00004,
+    "image": "https://picsum.photos/seed/aw-101/320/240"
+  },
+  {
+    "id": "aw-103",
+    "name": "Capybara",
+    "value": 50.00003,
+    "image": "https://picsum.photos/seed/aw-102/320/240"
+  },
+  {
+    "id": "aw-104",
+    "name": "Red kangaroo",
+    "value": 85.00001,
+    "image": "https://picsum.photos/seed/aw-103/320/240"
+  }
+]

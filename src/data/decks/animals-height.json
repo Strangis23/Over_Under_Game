@@ -1,0 +1,751 @@
+[
+  {
+    "id": "ah-1",
+    "name": "Blue whale",
+    "value": 3000,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-0/320/240"
+  },
+  {
+    "id": "ah-2",
+    "name": "Fin whale",
+    "value": 2000,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-1/320/240"
+  },
+  {
+    "id": "ah-3",
+    "name": "Sperm whale",
+    "value": 1800,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-2/320/240"
+  },
+  {
+    "id": "ah-4",
+    "name": "Humpback whale",
+    "value": 1500,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-3/320/240"
+  },
+  {
+    "id": "ah-5",
+    "name": "Whale shark",
+    "value": 1200,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-4/320/240"
+  },
+  {
+    "id": "ah-6",
+    "name": "Giraffe",
+    "value": 550,
+    "meta": "shoulder height",
+    "image": "https://picsum.photos/seed/ah-5/320/240"
+  },
+  {
+    "id": "ah-7",
+    "name": "African bush elephant",
+    "value": 330,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-6/320/240"
+  },
+  {
+    "id": "ah-8",
+    "name": "Asian elephant",
+    "value": 280,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-7/320/240"
+  },
+  {
+    "id": "ah-9",
+    "name": "Ostrich",
+    "value": 250,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-8/320/240"
+  },
+  {
+    "id": "ah-10",
+    "name": "Polar bear",
+    "value": 280.00001,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-9/320/240"
+  },
+  {
+    "id": "ah-11",
+    "name": "Brown bear",
+    "value": 250.00001,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-10/320/240"
+  },
+  {
+    "id": "ah-12",
+    "name": "Moose",
+    "value": 235,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-11/320/240"
+  },
+  {
+    "id": "ah-13",
+    "name": "Camel (dromedary)",
+    "value": 210,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-12/320/240"
+  },
+  {
+    "id": "ah-14",
+    "name": "Bactrian camel",
+    "value": 220,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-13/320/240"
+  },
+  {
+    "id": "ah-15",
+    "name": "American bison",
+    "value": 190,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-14/320/240"
+  },
+  {
+    "id": "ah-16",
+    "name": "Water buffalo",
+    "value": 180,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-15/320/240"
+  },
+  {
+    "id": "ah-17",
+    "name": "Saltwater crocodile",
+    "value": 600,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-16/320/240"
+  },
+  {
+    "id": "ah-18",
+    "name": "Nile crocodile",
+    "value": 500,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-17/320/240"
+  },
+  {
+    "id": "ah-19",
+    "name": "Reticulated python",
+    "value": 700,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-18/320/240"
+  },
+  {
+    "id": "ah-20",
+    "name": "Green anaconda",
+    "value": 550.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-19/320/240"
+  },
+  {
+    "id": "ah-21",
+    "name": "Komodo dragon",
+    "value": 300,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-20/320/240"
+  },
+  {
+    "id": "ah-22",
+    "name": "Tiger",
+    "value": 110,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-21/320/240"
+  },
+  {
+    "id": "ah-23",
+    "name": "Lion",
+    "value": 120,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-22/320/240"
+  },
+  {
+    "id": "ah-24",
+    "name": "Gray wolf",
+    "value": 85,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-23/320/240"
+  },
+  {
+    "id": "ah-25",
+    "name": "Great white shark",
+    "value": 600.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-24/320/240"
+  },
+  {
+    "id": "ah-26",
+    "name": "Orca",
+    "value": 800,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-25/320/240"
+  },
+  {
+    "id": "ah-27",
+    "name": "Walrus",
+    "value": 320,
+    "meta": "body",
+    "image": "https://picsum.photos/seed/ah-26/320/240"
+  },
+  {
+    "id": "ah-28",
+    "name": "Giraffe (newborn)",
+    "value": 180.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-27/320/240"
+  },
+  {
+    "id": "ah-29",
+    "name": "Emu",
+    "value": 170,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-28/320/240"
+  },
+  {
+    "id": "ah-30",
+    "name": "Southern cassowary",
+    "value": 170.00001,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-29/320/240"
+  },
+  {
+    "id": "ah-31",
+    "name": "Human (average adult)",
+    "value": 170.00002,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-30/320/240"
+  },
+  {
+    "id": "ah-32",
+    "name": "Domestic pig",
+    "value": 90,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-31/320/240"
+  },
+  {
+    "id": "ah-33",
+    "name": "Domestic cattle",
+    "value": 150,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-32/320/240"
+  },
+  {
+    "id": "ah-34",
+    "name": "Draft horse",
+    "value": 180.00002,
+    "meta": "withers",
+    "image": "https://picsum.photos/seed/ah-33/320/240"
+  },
+  {
+    "id": "ah-35",
+    "name": "Riding horse",
+    "value": 160,
+    "meta": "withers",
+    "image": "https://picsum.photos/seed/ah-34/320/240"
+  },
+  {
+    "id": "ah-36",
+    "name": "Red deer",
+    "value": 120.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-35/320/240"
+  },
+  {
+    "id": "ah-37",
+    "name": "Elk",
+    "value": 150.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-36/320/240"
+  },
+  {
+    "id": "ah-38",
+    "name": "Zebra",
+    "value": 140,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-37/320/240"
+  },
+  {
+    "id": "ah-39",
+    "name": "Gorilla (standing)",
+    "value": 170.00003,
+    "meta": "knuckle-walk",
+    "image": "https://picsum.photos/seed/ah-38/320/240"
+  },
+  {
+    "id": "ah-40",
+    "name": "Chimpanzee (standing)",
+    "value": 120.00002,
+    "meta": "approx",
+    "image": "https://picsum.photos/seed/ah-39/320/240"
+  },
+  {
+    "id": "ah-41",
+    "name": "Orangutan (armspan)",
+    "value": 240,
+    "meta": "span",
+    "image": "https://picsum.photos/seed/ah-40/320/240"
+  },
+  {
+    "id": "ah-42",
+    "name": "Giraffe calf",
+    "value": 180.00003,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-41/320/240"
+  },
+  {
+    "id": "ah-43",
+    "name": "Elephant seal (male)",
+    "value": 500.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-42/320/240"
+  },
+  {
+    "id": "ah-44",
+    "name": "Leopard",
+    "value": 70,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-43/320/240"
+  },
+  {
+    "id": "ah-45",
+    "name": "Jaguar",
+    "value": 70.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-44/320/240"
+  },
+  {
+    "id": "ah-46",
+    "name": "Cheetah",
+    "value": 80,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-45/320/240"
+  },
+  {
+    "id": "ah-47",
+    "name": "Spotted hyena",
+    "value": 90.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-46/320/240"
+  },
+  {
+    "id": "ah-48",
+    "name": "Black rhino",
+    "value": 160.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-47/320/240"
+  },
+  {
+    "id": "ah-49",
+    "name": "White rhino",
+    "value": 180.00004,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-48/320/240"
+  },
+  {
+    "id": "ah-50",
+    "name": "Indian rhino",
+    "value": 170.00004,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-49/320/240"
+  },
+  {
+    "id": "ah-51",
+    "name": "Hippopotamus",
+    "value": 150.00002,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-50/320/240"
+  },
+  {
+    "id": "ah-52",
+    "name": "Pygmy hippo",
+    "value": 100,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-51/320/240"
+  },
+  {
+    "id": "ah-53",
+    "name": "American alligator",
+    "value": 400,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-52/320/240"
+  },
+  {
+    "id": "ah-54",
+    "name": "American crocodile",
+    "value": 400.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-53/320/240"
+  },
+  {
+    "id": "ah-55",
+    "name": "Gharial",
+    "value": 500.00002,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-54/320/240"
+  },
+  {
+    "id": "ah-56",
+    "name": "Saltwater croc (large)",
+    "value": 650,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-55/320/240"
+  },
+  {
+    "id": "ah-57",
+    "name": "King cobra",
+    "value": 550.00002,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-56/320/240"
+  },
+  {
+    "id": "ah-58",
+    "name": "Boa constrictor",
+    "value": 400.00002,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-57/320/240"
+  },
+  {
+    "id": "ah-59",
+    "name": "Burmese python",
+    "value": 500.00003,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-58/320/240"
+  },
+  {
+    "id": "ah-60",
+    "name": "Aldabra tortoise",
+    "value": 120.00003,
+    "meta": "shell length",
+    "image": "https://picsum.photos/seed/ah-59/320/240"
+  },
+  {
+    "id": "ah-61",
+    "name": "Galápagos tortoise",
+    "value": 150.00003,
+    "meta": "shell length",
+    "image": "https://picsum.photos/seed/ah-60/320/240"
+  },
+  {
+    "id": "ah-62",
+    "name": "Ostrich chick",
+    "value": 25,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-61/320/240"
+  },
+  {
+    "id": "ah-63",
+    "name": "Emu chick",
+    "value": 25.00001,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-62/320/240"
+  },
+  {
+    "id": "ah-64",
+    "name": "Domestic cat",
+    "value": 25.00002,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-63/320/240"
+  },
+  {
+    "id": "ah-65",
+    "name": "Domestic dog (Great Dane)",
+    "value": 80.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-64/320/240"
+  },
+  {
+    "id": "ah-66",
+    "name": "Domestic dog (Chihuahua)",
+    "value": 20,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-65/320/240"
+  },
+  {
+    "id": "ah-67",
+    "name": "European rabbit",
+    "value": 40,
+    "meta": "body length",
+    "image": "https://picsum.photos/seed/ah-66/320/240"
+  },
+  {
+    "id": "ah-68",
+    "name": "House mouse",
+    "value": 8,
+    "meta": "body",
+    "image": "https://picsum.photos/seed/ah-67/320/240"
+  },
+  {
+    "id": "ah-69",
+    "name": "Brown rat",
+    "value": 28,
+    "meta": "head-body",
+    "image": "https://picsum.photos/seed/ah-68/320/240"
+  },
+  {
+    "id": "ah-70",
+    "name": "Beaver",
+    "value": 80.00002,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-69/320/240"
+  },
+  {
+    "id": "ah-71",
+    "name": "Red kangaroo (standing)",
+    "value": 180.00005,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-70/320/240"
+  },
+  {
+    "id": "ah-72",
+    "name": "Wallaby",
+    "value": 85.00001,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-71/320/240"
+  },
+  {
+    "id": "ah-73",
+    "name": "Llama",
+    "value": 120.00004,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-72/320/240"
+  },
+  {
+    "id": "ah-74",
+    "name": "Alpaca",
+    "value": 100.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-73/320/240"
+  },
+  {
+    "id": "ah-75",
+    "name": "Dromedary (hump top)",
+    "value": 230,
+    "meta": "standing",
+    "image": "https://picsum.photos/seed/ah-74/320/240"
+  },
+  {
+    "id": "ah-76",
+    "name": "Reindeer",
+    "value": 150.00004,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-75/320/240"
+  },
+  {
+    "id": "ah-77",
+    "name": "Musk ox",
+    "value": 150.00005,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-76/320/240"
+  },
+  {
+    "id": "ah-78",
+    "name": "Bison calf",
+    "value": 120.00005,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-77/320/240"
+  },
+  {
+    "id": "ah-79",
+    "name": "Wild boar",
+    "value": 100.00002,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-78/320/240"
+  },
+  {
+    "id": "ah-80",
+    "name": "Warthog",
+    "value": 85.00002,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-79/320/240"
+  },
+  {
+    "id": "ah-81",
+    "name": "Tapir",
+    "value": 110.00001,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-80/320/240"
+  },
+  {
+    "id": "ah-82",
+    "name": "Capybara",
+    "value": 60,
+    "meta": "shoulder",
+    "image": "https://picsum.photos/seed/ah-81/320/240"
+  },
+  {
+    "id": "ah-83",
+    "name": "Manatee",
+    "value": 350,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-82/320/240"
+  },
+  {
+    "id": "ah-84",
+    "name": "Dugong",
+    "value": 300.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-83/320/240"
+  },
+  {
+    "id": "ah-85",
+    "name": "Narwhal (excl. tusk)",
+    "value": 500.00004,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-84/320/240"
+  },
+  {
+    "id": "ah-86",
+    "name": "Beluga whale",
+    "value": 500.00005,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-85/320/240"
+  },
+  {
+    "id": "ah-87",
+    "name": "Minke whale",
+    "value": 800.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-86/320/240"
+  },
+  {
+    "id": "ah-88",
+    "name": "Gray whale",
+    "value": 1200.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-87/320/240"
+  },
+  {
+    "id": "ah-89",
+    "name": "Bowhead whale",
+    "value": 1500.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-88/320/240"
+  },
+  {
+    "id": "ah-90",
+    "name": "Sei whale",
+    "value": 1800.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-89/320/240"
+  },
+  {
+    "id": "ah-91",
+    "name": "Bryde's whale",
+    "value": 1400,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-90/320/240"
+  },
+  {
+    "id": "ah-92",
+    "name": "Ocean sunfish",
+    "value": 330.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-91/320/240"
+  },
+  {
+    "id": "ah-93",
+    "name": "Blue marlin",
+    "value": 450,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-92/320/240"
+  },
+  {
+    "id": "ah-94",
+    "name": "Swordfish",
+    "value": 450.00001,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-93/320/240"
+  },
+  {
+    "id": "ah-95",
+    "name": "Giant squid",
+    "value": 1300,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-94/320/240"
+  },
+  {
+    "id": "ah-96",
+    "name": "Colossal squid",
+    "value": 400.00003,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-95/320/240"
+  },
+  {
+    "id": "ah-97",
+    "name": "Manta ray",
+    "value": 700.00001,
+    "meta": "wingspan",
+    "image": "https://picsum.photos/seed/ah-96/320/240"
+  },
+  {
+    "id": "ah-98",
+    "name": "Tiger shark",
+    "value": 550.00003,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-97/320/240"
+  },
+  {
+    "id": "ah-99",
+    "name": "Hammerhead shark",
+    "value": 430,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-98/320/240"
+  },
+  {
+    "id": "ah-100",
+    "name": "Bull shark",
+    "value": 340,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-99/320/240"
+  },
+  {
+    "id": "ah-101",
+    "name": "Arapaima",
+    "value": 250.00002,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-100/320/240"
+  },
+  {
+    "id": "ah-102",
+    "name": "Sturgeon (beluga)",
+    "value": 700.00002,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-101/320/240"
+  },
+  {
+    "id": "ah-103",
+    "name": "Wels catfish",
+    "value": 300.00002,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-102/320/240"
+  },
+  {
+    "id": "ah-104",
+    "name": "Mekong giant catfish",
+    "value": 300.00003,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-103/320/240"
+  },
+  {
+    "id": "ah-105",
+    "name": "Great barracuda",
+    "value": 200,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-104/320/240"
+  },
+  {
+    "id": "ah-106",
+    "name": "Atlantic bluefin tuna",
+    "value": 300.00004,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-105/320/240"
+  },
+  {
+    "id": "ah-107",
+    "name": "Whale shark",
+    "value": 1200.00002,
+    "meta": "length",
+    "image": "https://picsum.photos/seed/ah-106/320/240"
+  }
+]
