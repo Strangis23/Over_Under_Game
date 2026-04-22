@@ -7,6 +7,9 @@ const THEME_CLASSES = [
   "theme-animals",
   "theme-geography",
   "theme-sports",
+  "theme-science",
+  "theme-cinema",
+  "theme-mixed",
 ] as const;
 
 function resolveThemeClass(pathname: string): (typeof THEME_CLASSES)[number] {
@@ -15,7 +18,14 @@ function resolveThemeClass(pathname: string): (typeof THEME_CLASSES)[number] {
   }
   if (pathname.startsWith("/category/")) {
     const id = pathname.split("/").filter(Boolean)[1];
-    if (id === "animals" || id === "geography" || id === "sports") {
+    if (
+      id === "animals" ||
+      id === "geography" ||
+      id === "sports" ||
+      id === "science" ||
+      id === "cinema" ||
+      id === "mixed"
+    ) {
       return `theme-${id}` as (typeof THEME_CLASSES)[number];
     }
     return "theme-neutral";
@@ -25,7 +35,14 @@ function resolveThemeClass(pathname: string): (typeof THEME_CLASSES)[number] {
     if (subId) {
       const resolved = getSubcategoryById(subId);
       const cid = resolved?.category.id;
-      if (cid === "animals" || cid === "geography" || cid === "sports") {
+      if (
+        cid === "animals" ||
+        cid === "geography" ||
+        cid === "sports" ||
+        cid === "science" ||
+        cid === "cinema" ||
+        cid === "mixed"
+      ) {
         return `theme-${cid}` as (typeof THEME_CLASSES)[number];
       }
     }

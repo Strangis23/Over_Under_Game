@@ -39,6 +39,23 @@ export function wikipediaTitlesToTry(
     case "nflPassYds":
       titles.add(`${name} (American football)`);
       break;
+    case "planetDiameter":
+      titles.add(`${name} (planet)`);
+      titles.add(`${name} (moon)`);
+      titles.add(`${name} (dwarf planet)`);
+      titles.add(`${name} (asteroid)`);
+      break;
+    case "riverLength":
+      titles.add(`${name} (river)`);
+      break;
+    case "buildingHeight":
+      titles.add(`${name} (building)`);
+      titles.add(`${name} (skyscraper)`);
+      titles.add(`${name} (structure)`);
+      break;
+    case "movieRuntime":
+      titles.add(`${name} (film)`);
+      break;
     default:
       break;
   }
@@ -101,4 +118,19 @@ export async function getWikipediaImageForEntity(
 
   entityCache.set(ck, null);
   return null;
+}
+
+/** Canonical article URL for a Wikipedia page title (underscores, encoded). */
+export function wikipediaArticleUrlForTitle(pageTitle: string): string {
+  const t = pageTitle.trim().replace(/ /g, "_");
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(t)}`;
+}
+
+/** First title we would try for summary lookup — good default for “Learn more”. */
+export function primaryLearnMoreWikipediaUrl(
+  displayName: string,
+  deckKey: DeckKey,
+): string {
+  const titles = wikipediaTitlesToTry(displayName, deckKey);
+  return wikipediaArticleUrlForTitle(titles[0]!);
 }

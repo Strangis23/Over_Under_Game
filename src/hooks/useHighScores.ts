@@ -1,12 +1,15 @@
 import { useCallback, useMemo, useSyncExternalStore } from "react";
 import { indexData } from "../data/loadDecks";
 
-const STORAGE_VERSION = 1;
+const STORAGE_VERSION = 2;
 const PREFIX = `ou-game:v${STORAGE_VERSION}`;
+const LEGACY_PREFIX = `ou-game:v1`;
 
 export interface ModeScores {
   bestStreak: number;
   totalCorrect: number;
+  /** Total answered rounds (correct + wrong). */
+  totalRounds: number;
   lastPlayed?: number;
 }
 
@@ -22,23 +25,41 @@ function storageKey(modeId: string): string {
   return `${PREFIX}:scores:${modeId}`;
 }
 
-function readScores(modeId: string): ModeScores {
+function legacyStorageKey(modeId: string): string {
+  return `${LEGACY_PREFIX}:scores:${modeId}`;
+}
+
+function normalizeScores(parsed: Partial<ModeScores>): ModeScores {
+  return {
+    bestStreak: typeof parsed.bestStreak === "number" ? parsed.bestStreak : 0,
+    totalCorrect:
+      typeof parsed.totalCorrect === "number" ? parsed.totalCorrect : 0,
+    totalRounds: typeof parsed.totalRounds === "number" ? parsed.totalRounds : 0,
+    lastPlayed: parsed.lastPlayed,
+  };
+}
+
+/** Read persisted scores for a mode (subcategory id or `"global"`). */
+export function readModeScores(modeId: string): ModeScores {
   if (typeof localStorage === "undefined") {
-    return { bestStreak: 0, totalCorrect: 0 };
+    return { bestStreak: 0, totalCorrect: 0, totalRounds: 0 };
   }
   try {
-    const raw = localStorage.getItem(storageKey(modeId));
+    let raw = localStorage.getItem(storageKey(modeId));
     if (!raw) {
-      return { bestStreak: 0, totalCorrect: 0 };
+      raw = localStorage.getItem(legacyStorageKey(modeId));
+      if (raw) {
+        const migrated = normalizeScores(JSON.parse(raw) as Partial<ModeScores>);
+        writeScores(modeId, migrated);
+        localStorage.removeItem(legacyStorageKey(modeId));
+      }
     }
-    const parsed = JSON.parse(raw) as ModeScores;
-    return {
-      bestStreak: typeof parsed.bestStreak === "number" ? parsed.bestStreak : 0,
-      totalCorrect: typeof parsed.totalCorrect === "number" ? parsed.totalCorrect : 0,
-      lastPlayed: parsed.lastPlayed,
-    };
+    if (!raw) {
+      return { bestStreak: 0, totalCorrect: 0, totalRounds: 0 };
+    }
+    return normalizeScores(JSON.parse(raw) as Partial<ModeScores>);
   } catch {
-    return { bestStreak: 0, totalCorrect: 0 };
+    return { bestStreak: 0, totalCorrect: 0, totalRounds: 0 };
   }
 }
 
@@ -53,12 +74,14 @@ export function recordRound(
   streakAfter: number,
 ): void {
   const bump = (modeId: string) => {
-    const prev = readScores(modeId);
+    const prev = readModeScores(modeId);
     const bestStreak = Math.max(prev.bestStreak, streakAfter);
     const totalCorrect = prev.totalCorrect + (correct ? 1 : 0);
+    const totalRounds = prev.totalRounds + 1;
     writeScores(modeId, {
       bestStreak,
       totalCorrect,
+      totalRounds,
       lastPlayed: Date.now(),
     });
   };
@@ -69,6 +92,7 @@ export function recordRound(
 
 export function resetScores(modeId: string): void {
   localStorage.removeItem(storageKey(modeId));
+  localStorage.removeItem(legacyStorageKey(modeId));
   notifyScoresChanged();
 }
 
@@ -83,7 +107,8 @@ function subscribe(callback: () => void): () => void {
 }
 
 function getSnapshot(): number {
-  return readScores("global").totalCorrect + readScores("global").bestStreak;
+  const g = readModeScores("global");
+  return g.totalCorrect + g.bestStreak + g.totalRounds;
 }
 
 export function useAllSubcategoryScores(): {
@@ -107,7 +132,7 @@ export function useAllSubcategoryScores(): {
           subcategoryId: sub.id,
           label: sub.label,
           categoryLabel: cat.label,
-          scores: readScores(sub.id),
+          scores: readModeScores(sub.id),
         });
       }
     }
@@ -116,7 +141,7 @@ export function useAllSubcategoryScores(): {
 }
 
 export function readGlobalScores(): ModeScores {
-  return readScores("global");
+  return readModeScores("global");
 }
 
 export function useGlobalScores(): ModeScores {
@@ -132,9 +157,11 @@ export function useResetAllScores(): () => void {
     for (const cat of indexData.categories) {
       for (const sub of cat.subcategories) {
         localStorage.removeItem(storageKey(sub.id));
+        localStorage.removeItem(legacyStorageKey(sub.id));
       }
     }
     localStorage.removeItem(storageKey("global"));
+    localStorage.removeItem(legacyStorageKey("global"));
     notifyScoresChanged();
   }, []);
 }

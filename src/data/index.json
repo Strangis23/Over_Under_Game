@@ -11,7 +11,28 @@
           "description": "Which animal is heavier?",
           "dimensionLabel": "Weight",
           "unit": "kg",
-          "deckKey": "animalsWeight"
+          "deckKey": "animalsWeight",
+          "sourceNote": "Typical adult weights; approximate."
+        },
+        {
+          "id": "animals-weight-lower",
+          "label": "Weight (lighter)",
+          "description": "Which animal is lighter?",
+          "dimensionLabel": "Weight",
+          "unit": "kg",
+          "deckKey": "animalsWeight",
+          "comparisonGoal": "lower",
+          "sourceNote": "Typical adult weights; approximate."
+        },
+        {
+          "id": "animals-weight-sprint",
+          "label": "Weight — 10 rounds",
+          "description": "Ten questions; same deck as Weight.",
+          "dimensionLabel": "Weight",
+          "unit": "kg",
+          "deckKey": "animalsWeight",
+          "runLength": 10,
+          "sourceNote": "Typical adult weights; approximate."
         },
         {
           "id": "animals-height",
@@ -19,7 +40,18 @@
           "description": "Which animal is taller or longer (typical adult)?",
           "dimensionLabel": "Height / length",
           "unit": "cm",
-          "deckKey": "animalsHeight"
+          "deckKey": "animalsHeight",
+          "sourceNote": "Typical adult size; approximate."
+        },
+        {
+          "id": "animals-height-lower",
+          "label": "Height / length (shorter)",
+          "description": "Which animal is shorter or smaller (typical adult)?",
+          "dimensionLabel": "Height / length",
+          "unit": "cm",
+          "deckKey": "animalsHeight",
+          "comparisonGoal": "lower",
+          "sourceNote": "Typical adult size; approximate."
         }
       ]
     },
@@ -34,7 +66,18 @@
           "description": "Which country has more people?",
           "dimensionLabel": "Population",
           "unit": "people",
-          "deckKey": "countriesPopulation"
+          "deckKey": "countriesPopulation",
+          "sourceNote": "Approximate census-style figures."
+        },
+        {
+          "id": "countries-population-lower",
+          "label": "Country population (smaller)",
+          "description": "Which country has fewer people?",
+          "dimensionLabel": "Population",
+          "unit": "people",
+          "deckKey": "countriesPopulation",
+          "comparisonGoal": "lower",
+          "sourceNote": "Approximate census-style figures."
         },
         {
           "id": "countries-area",
@@ -42,7 +85,68 @@
           "description": "Which country has a larger land area?",
           "dimensionLabel": "Land area",
           "unit": "km²",
-          "deckKey": "countriesArea"
+          "deckKey": "countriesArea",
+          "sourceNote": "Land area only; approximate."
+        },
+        {
+          "id": "countries-area-lower",
+          "label": "Country land area (smaller)",
+          "description": "Which country has a smaller land area?",
+          "dimensionLabel": "Land area",
+          "unit": "km²",
+          "deckKey": "countriesArea",
+          "comparisonGoal": "lower",
+          "sourceNote": "Land area only; approximate."
+        },
+        {
+          "id": "rivers-length",
+          "label": "Major rivers (length)",
+          "description": "Which river’s main-stem length is longer (published estimates)?",
+          "dimensionLabel": "River length (main stem)",
+          "unit": "km",
+          "deckKey": "riverLength",
+          "sourceNote": "Rounded mainstream lengths; sources disagree on exact rankings."
+        },
+        {
+          "id": "skyscrapers-height",
+          "label": "Tall buildings & towers",
+          "description": "Which structure’s architectural or structural height is greater?",
+          "dimensionLabel": "Structural height",
+          "unit": "m",
+          "deckKey": "buildingHeight",
+          "sourceNote": "Approximate published heights; masts vs skyscrapers mixed intentionally."
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "label": "Science & space",
+      "description": "Solar system sizes and similar round-number science facts.",
+      "subcategories": [
+        {
+          "id": "planet-diameter",
+          "label": "Planet & moon diameters",
+          "description": "Which body has a larger equatorial diameter?",
+          "dimensionLabel": "Equatorial diameter",
+          "unit": "km",
+          "deckKey": "planetDiameter",
+          "sourceNote": "Approximate mean diameters for planets and large moons; small bodies rounded."
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "label": "Cinema",
+      "description": "Feature-film runtimes (theatrical or common streaming cut).",
+      "subcategories": [
+        {
+          "id": "movie-runtime",
+          "label": "Movie runtimes",
+          "description": "Which film’s listed runtime is longer?",
+          "dimensionLabel": "Theatrical runtime",
+          "unit": "min",
+          "deckKey": "movieRuntime",
+          "sourceNote": "Rounded minutes; cuts vary by region and re-release."
         }
       ]
     },
@@ -57,7 +161,28 @@
           "description": "Who averaged more points per game for their career?",
           "dimensionLabel": "Career points per game",
           "unit": "PPG",
-          "deckKey": "nbaPpg"
+          "deckKey": "nbaPpg",
+          "sourceNote": "Career regular-season style averages; approximate."
+        },
+        {
+          "id": "nba-ppg-lower",
+          "label": "NBA — career PPG (lower)",
+          "description": "Who averaged fewer points per game for their career?",
+          "dimensionLabel": "Career points per game",
+          "unit": "PPG",
+          "deckKey": "nbaPpg",
+          "comparisonGoal": "lower",
+          "sourceNote": "Career regular-season style averages; approximate."
+        },
+        {
+          "id": "nba-ppg-hard",
+          "label": "NBA — career PPG (hard pairs)",
+          "description": "Same stat, but pairs are biased toward closer numbers.",
+          "dimensionLabel": "Career points per game",
+          "unit": "PPG",
+          "deckKey": "nbaPpg",
+          "pairDifficulty": "hard",
+          "sourceNote": "Career regular-season style averages; approximate."
         },
         {
           "id": "nfl-pass-yds",
@@ -65,7 +190,44 @@
           "description": "Who threw for more career passing yards (regular season)?",
           "dimensionLabel": "Career passing yards",
           "unit": "yds",
-          "deckKey": "nflPassYds"
+          "deckKey": "nflPassYds",
+          "sourceNote": "Career passing yards; approximate."
+        },
+        {
+          "id": "nfl-pass-yds-lower",
+          "label": "NFL — career passing yards (lower)",
+          "description": "Who threw for fewer career passing yards?",
+          "dimensionLabel": "Career passing yards",
+          "unit": "yds",
+          "deckKey": "nflPassYds",
+          "comparisonGoal": "lower",
+          "sourceNote": "Career passing yards; approximate."
+        }
+      ]
+    },
+    {
+      "id": "mixed",
+      "label": "Mixed",
+      "description": "A random stat each round from every deck.",
+      "subcategories": [
+        {
+          "id": "mixed-all-stats",
+          "label": "All stats mix",
+          "description": "Each round picks a random stat from any deck in the game.",
+          "dimensionLabel": "Value",
+          "mixedPool": [
+            "animalsWeight",
+            "animalsHeight",
+            "countriesPopulation",
+            "countriesArea",
+            "nbaPpg",
+            "nflPassYds",
+            "planetDiameter",
+            "riverLength",
+            "buildingHeight",
+            "movieRuntime"
+          ],
+          "sourceNote": "Deck and units change each round; see on-card labels."
         }
       ]
     }

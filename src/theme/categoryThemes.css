@@ -146,6 +146,114 @@ body.theme-sports {
   color: var(--text);
 }
 
+body.theme-science {
+  --bg: #0a1018;
+  --surface: #152535;
+  --surface-hover: #1e3348;
+  --text: #e8f2fc;
+  --muted: #8aa4bd;
+  --accent: #4fc3f7;
+  --accent-dim: #0288d1;
+  --over: #80deea;
+  --under: #ffb74d;
+  --bad: #ef9a9a;
+  --card-border: rgba(79, 195, 247, 0.22);
+  --card-hover-border: rgba(79, 195, 247, 0.48);
+  --game-play-bg: linear-gradient(
+    175deg,
+    rgba(25, 55, 85, 0.45) 0%,
+    rgba(12, 24, 38, 0.45) 55%,
+    rgba(10, 18, 28, 0.42) 100%
+  );
+  --game-play-border: rgba(79, 195, 247, 0.28);
+  --game-feedback-bg: rgba(79, 195, 247, 0.08);
+  --game-header-accent: rgba(79, 195, 247, 0.45);
+  --btn-primary-bg: linear-gradient(165deg, #81d4fa 0%, #01579b 100%);
+  --btn-primary-fg: #061018;
+  --btn-primary-border: rgba(129, 212, 250, 0.55);
+  --btn-primary-shadow: rgba(0, 20, 40, 0.5);
+  background:
+    radial-gradient(
+      ellipse 100% 58% at 50% -8%,
+      rgba(79, 195, 247, 0.18),
+      transparent 56%
+    ),
+    linear-gradient(180deg, #142838 0%, #080e14 50%, #0a1018 100%);
+  color: var(--text);
+}
+
+body.theme-cinema {
+  --bg: #120c14;
+  --surface: #261c30;
+  --surface-hover: #362848;
+  --text: #f4eef8;
+  --muted: #b8a8c8;
+  --accent: #e040fb;
+  --accent-dim: #aa00ff;
+  --over: #ea80fc;
+  --under: #ffd54f;
+  --bad: #ff8a65;
+  --card-border: rgba(224, 64, 251, 0.22);
+  --card-hover-border: rgba(224, 64, 251, 0.48);
+  --game-play-bg: linear-gradient(
+    170deg,
+    rgba(70, 35, 95, 0.42) 0%,
+    rgba(28, 18, 40, 0.45) 55%,
+    rgba(16, 10, 24, 0.42) 100%
+  );
+  --game-play-border: rgba(224, 64, 251, 0.28);
+  --game-feedback-bg: rgba(224, 64, 251, 0.08);
+  --game-header-accent: rgba(224, 64, 251, 0.45);
+  --btn-primary-bg: linear-gradient(165deg, #f48fb1 0%, #6a1b9a 100%);
+  --btn-primary-fg: #fff8fc;
+  --btn-primary-border: rgba(244, 143, 177, 0.55);
+  --btn-primary-shadow: rgba(0, 0, 0, 0.5);
+  background:
+    radial-gradient(
+      ellipse 100% 55% at 48% -6%,
+      rgba(224, 64, 251, 0.16),
+      transparent 58%
+    ),
+    linear-gradient(175deg, #2a1838 0%, #100818 50%, #120c14 100%);
+  color: var(--text);
+}
+
+body.theme-mixed {
+  --bg: #100f18;
+  --surface: #221c32;
+  --surface-hover: #322847;
+  --text: #f2eef8;
+  --muted: #a89bc4;
+  --accent: #b388ff;
+  --accent-dim: #7c4dff;
+  --over: #ce93d8;
+  --under: #80cbc4;
+  --bad: #ef9a9a;
+  --card-border: rgba(179, 136, 255, 0.22);
+  --card-hover-border: rgba(179, 136, 255, 0.48);
+  --game-play-bg: linear-gradient(
+    170deg,
+    rgba(60, 40, 95, 0.42) 0%,
+    rgba(28, 22, 48, 0.45) 55%,
+    rgba(20, 18, 36, 0.4) 100%
+  );
+  --game-play-border: rgba(179, 136, 255, 0.28);
+  --game-feedback-bg: rgba(179, 136, 255, 0.08);
+  --game-header-accent: rgba(179, 136, 255, 0.45);
+  --btn-primary-bg: linear-gradient(165deg, #d1bfff 0%, #5e35b1 100%);
+  --btn-primary-fg: #1a0d2e;
+  --btn-primary-border: rgba(179, 136, 255, 0.55);
+  --btn-primary-shadow: rgba(0, 0, 0, 0.45);
+  background:
+    radial-gradient(
+      ellipse 100% 58% at 50% -8%,
+      rgba(179, 136, 255, 0.2),
+      transparent 56%
+    ),
+    linear-gradient(175deg, #241a36 0%, #120e1c 50%, #100f18 100%);
+  color: var(--text);
+}
+
 /* Home: category cards (beat .card from App.css) */
 .card.card-link.card-theme-animals {
   border-color: rgba(139, 195, 74, 0.25);
@@ -198,5 +306,59 @@ body.theme-sports {
     145deg,
     rgba(52, 58, 78, 0.95),
     rgba(24, 28, 40, 1)
+  );
+}
+
+.card.card-link.card-theme-mixed {
+  border-color: rgba(179, 136, 255, 0.28);
+  background: linear-gradient(
+    145deg,
+    rgba(48, 36, 72, 0.92),
+    rgba(20, 16, 36, 0.98)
+  );
+}
+
+.card.card-link.card-theme-mixed:hover {
+  border-color: rgba(179, 136, 255, 0.5);
+  background: linear-gradient(
+    145deg,
+    rgba(58, 44, 88, 0.98),
+    rgba(28, 22, 48, 1)
+  );
+}
+
+.card.card-link.card-theme-science {
+  border-color: rgba(79, 195, 247, 0.28);
+  background: linear-gradient(
+    145deg,
+    rgba(28, 48, 68, 0.92),
+    rgba(12, 20, 32, 0.98)
+  );
+}
+
+.card.card-link.card-theme-science:hover {
+  border-color: rgba(79, 195, 247, 0.5);
+  background: linear-gradient(
+    145deg,
+    rgba(36, 58, 82, 0.98),
+    rgba(16, 28, 42, 1)
+  );
+}
+
+.card.card-link.card-theme-cinema {
+  border-color: rgba(224, 64, 251, 0.28);
+  background: linear-gradient(
+    145deg,
+    rgba(52, 32, 72, 0.92),
+    rgba(22, 14, 34, 0.98)
+  );
+}
+
+.card.card-link.card-theme-cinema:hover {
+  border-color: rgba(224, 64, 251, 0.5);
+  background: linear-gradient(
+    145deg,
+    rgba(64, 40, 88, 0.98),
+    rgba(28, 18, 42, 1)
   );
 }
